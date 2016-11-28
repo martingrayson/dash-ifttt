@@ -1,0 +1,30 @@
+{
+  "name": "node-dash-ifttt",
+  "version": "1.0.0",
+  "description": "Link an Amazon Dash Button to IFTTT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/martingrayson/dash-ifttt.git"
+  },
+  "keywords": [
+    "Amazon",
+    "Dash",
+    "IFTTT",
+    "Maker",
+    "Event"
+  ],
+  "author": {
+    "name": "Martin Grayson",
+    "email": "martin@mgrayson.co.uk"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/martingrayson/dash-ifttt/issues"
+  },
+  "homepage": "https://github.com/martingrayson/dash-ifttt#readme",
+  "dependencies": {
+    "node-dash-button": "^0.6.1",
+    "request": "^2.60.0"
+  }
+}

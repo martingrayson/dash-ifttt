@@ -1,0 +1,19 @@
+{
+   "ifttt_config": {
+      "ifttt_maker_key": "IFTTT maker key here"
+   },
+   "dash_config":{
+      "actions":[
+         {
+            "dash_event_name":"pause_my_music",
+            "event_description":"The Pop Tarts Dash button was pressed so pause my music.",
+            "dash_mac_address":"84:d6:d0:5d:d5:be"
+         },
+         {
+            "dash_event_name":"dinners_ready",
+            "event_description":"Dinners ready, announce this on the Sonos.",
+            "dash_mac_address":"84:d6:d0:5d:d5:bc"
+         }
+      ]
+   }
+}
