@@ -8,19 +8,19 @@ This very simple package uses Alex Hortin's [node-dash-button](https://github.co
 
 ## Configuration
 
-# Setup your Dash button
+### Setup your Dash button
 
 - Follow the setup provided within the Amazon app to connect the Dash button to your local network - **EXIT THE APP BEFORE PICKING A PRODUCT**.
 
 - Locate the MAC addresss of your dash button using the `find_button` script provided by [node-dash-button](https://github.com/hortinstein/node-dash-button) 
 
-# Configure Dash to IFTTT
+### Configure Dash to IFTTT
 
-- Add your Dash MAC address (`dash_mac_address`) to the config and setup an event name (`dash_event_name`) that is passed to IFTTT. The event name can be anything e.g. "pop_tarts_dash_press"
+- Add your Dash MAC address (`dash_mac_address`) to the config and setup an event name (`dash_event_name`) to be passed to IFTTT. The event name can be anything e.g. "pop_tarts_dash_press"
 
 - Run the project on your machine / server etc. (something like `pm2` on a pi will do the trick)
 
-# Configure IFTTT
+### Configure IFTTT
 
 - Login to IFTTT.com
 - Hit My Applets -> New Applet
